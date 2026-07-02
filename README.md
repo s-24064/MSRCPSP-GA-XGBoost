@@ -70,18 +70,23 @@ This approach behaves as:
 
 ---
 
-## How to Run
+## Running the Project
 
-### Run ML-assisted GA (recommended)
+### Run the Discrete Parameter Selection Model
+
+This version predicts the best Genetic Algorithm parameters from a predefined set of candidate values.
+
+```bash
+python model_AG.py
+```
+
+### Run the Continuous Parameter Optimization Model
+
+This version searches for the best Genetic Algorithm parameters within continuous intervals using XGBoost predictions and local refinement.
 
 ```bash
 python model_continue.py
-
-Run Parametres  GA
-python model_AG.py
-
-Run classical GA
-python model_AG.py
+```
 
 Input Format
 
