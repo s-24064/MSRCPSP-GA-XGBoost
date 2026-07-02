@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (Keep your repo lightweight)
+
+MSLIB4/
+
+# Virtual environments (if you use one)
+venv/
+.venv/
+env/
